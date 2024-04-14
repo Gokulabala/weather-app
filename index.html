@@ -3,10 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather_app
-    </title>
+    <title>Weather_app</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <header class="header">
+        <input class="input_box" type="text" name="text" placeholder="Enter City and Press Enter" >
+    </header>
+    <main class="main">
+        <section class="details">
+           <section class="details_sub">
+                <P id="day">Saturday</P>
+                <p id="date">Date</p>
+                <img id="png" src="" class="details_png" >
+                <span id="temp">temp</span><span>&#8451</span>
+                <p id="condition">condition</p>
+           </section>
+           
+        </section>
+
+        <section class="daily_temp">
+            <section class="day_temp" >
+                <p id="day1_day">Sat</p>
+                <img id="day1_png" class="daily_temp_img" src=""/>
+                <p id="day1_temp">temp</p>
+            </section>
+            
+            <section class="day_temp"  >
+                <p id="day2_day">Sun</p>
+                <img id="day2_png" class="daily_temp_img" src=""/>
+                <p id="day2_temp">temp</p>
+            </section>
+            <section class="day_temp" >
+                <p id="day3_day">Mon</p>
+                <img id="day3_png" class="daily_temp_img" src=""/>
+                <p id="day3_temp">temp</p>
+            </section>
+            <!-- <section class="day_temp">
+                Tue
+                <img class="daily_temp_img" src=""/>
+                <p>temp</p>
+            </section>
+            <section class="day_temp">
+                Wed
+                <img class="daily_temp_img" src=""/>
+                <p>temp</p>
+            </section>
+            <section class="day_temp">
+                Thur
+                <img class="daily_temp_img" src=""/>
+                <p>temp</p>
+            </section>
+            <section class="day_temp">
+                Fri
+                <img class="daily_temp_img" src=""/>
+                <p>temp</p>
+            </section> -->
+        </section>
+    </main>
     
+    <script src="./index.js">
+    </script>
 </body>
 </html>
