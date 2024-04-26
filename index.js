@@ -72,7 +72,7 @@ async function fetchDataHistory (inputCity){
 
     try {
         
-        const forecasturl = `http://api.weatherapi.com/v1/forecast.json?key=219f545a9aec438cbbc33602241404&q=${inputCity}&days=7&aqi=no&alerts=no
+        const forecasturl = `https://api.weatherapi.com/v1/forecast.json?key=219f545a9aec438cbbc33602241404&q=${inputCity}&days=7&aqi=no&alerts=no
         `
 
         const forecastResponse = await fetch(forecasturl)
