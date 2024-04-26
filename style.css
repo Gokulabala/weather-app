@@ -21,8 +21,9 @@
 }
 
 .main{
-    margin-left: 15%;
-    margin-top: 10%;
+    position: absolute;
+    left: 33%;
+    top: 30%;
     height: 60vh;
     width: 70vh;
     background-color: aliceblue;
