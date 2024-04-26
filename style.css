@@ -35,6 +35,7 @@
     height: 80%;
     width: 100%;
     background-color: lightblue;
+    background-repeat: none;
     background-image: url('https://img.freepik.com/free-vector/blank-sky-daytime-scene-with-blank-flood-landscape_1308-58059.jpg');
 }
 
