@@ -27,7 +27,7 @@ async function fetchData(inputCity){
     //Making the api request
    
     try {
-        const currenttempurl = `http://api.weatherapi.com/v1/current.json?key=219f545a9aec438cbbc33602241404&q=${inputCity}&aqi=no`
+        const currenttempurl = `https://api.weatherapi.com/v1/current.json?key=219f545a9aec438cbbc33602241404&q=${inputCity}&aqi=no`
         
         
 
